@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #e6e6e6;
+      
+    }
+     section {
+      display: grid;
+      place-items: center;
+     }
+
+     .container {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      height: 100%;
+      width: 20.6rem;
+      box-sizing: border-box;
+      border-radius: 30px;
+    }
+
+     .texto {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      text-align: center;
+      max-width: 300px;
+     }
+     .qrcode {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     img {
+      max-width: 95%;
+  max-height: 100%;
+  border-radius: 20px;
+     }
+
+     p {
+      color: #919191;
+      width: 230px;
+      margin-left: 30px;
+      margin-bottom: 30px;
+     }
+  </style>
+</head>
+<body>
+<section>
+  <div class="container">
+    <div class="qrcode">
+      <img src="./images/image-qr-code.png" alt="">
+    </div>
+      <div class="texto">
+      <h3>
+        Improve yout front-end skills by building projects
+      </h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+    </div>
+  </div>
+</section>
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Andzuo">Anderson Medeiros</a>.
+  </div>
+</body>
+</html>
